@@ -1,9 +1,15 @@
-import React from 'react'
+import React from "react";
 
 const Header = () => {
   return (
-    <div>Header</div>
-  )
-}
+    <section className="container">
+      <div className="flex justify-between">
+        <div className="">LOGO</div>
+        <div className="">SEARCH</div>
+        <div className="">CURRENT LOCATION BUTTON</div>
+      </div>
+    </section>
+  );
+};
 
-export default Header
+export default Header;
